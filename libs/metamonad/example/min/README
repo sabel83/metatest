@@ -1,3 +1,0 @@
-This is demonstrating how to implement a min and a less function
-in template metaprogramming, that throw exceptions in case of
-errors.

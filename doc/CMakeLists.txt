@@ -7,5 +7,5 @@ include(Asciidoc)
 
 file(GLOB SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/*.txt)
 list(REMOVE_ITEM SOURCES ${CMAKE_CURRENT_SOURCE_DIR}/CMakeLists.txt)
-asciidoc_build(base_documentation ${CMAKE_SOURCE_DIR} ${SOURCES})
+asciidoc_build(metatest_documentation ${CMAKE_CURRENT_SOURCE_DIR}/../html ${SOURCES})
 

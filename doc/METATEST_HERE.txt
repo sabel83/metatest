@@ -1,0 +1,38 @@
+//    Copyright Abel Sinkovics (abel@sinkovics.hu) 2011.
+// Distributed under the Boost Software License, Version 1.0.
+//    (See accompanying file LICENSE_1_0.txt or copy at
+//          http://www.boost.org/LICENSE_1_0.txt)
+
+METATEST_HERE
+=============
+Abel Sinkovics
+
+Synopsis
+--------
+
+--------------------------------------
+#define METATEST_HERE \
+  // unspecified
+--------------------------------------
+
+
+Description
+-----------
+
+Macro for constructing a link:location.html[+location+] value, representing
+the source location that invokes +METATEST_HERE+.
+
+Header
+------
+
+--------------------------------------
+#include <metatest/location.hpp>
+--------------------------------------
+
+include::copyright[]
+
+link:index.html[[up]]
+
+
+
+
