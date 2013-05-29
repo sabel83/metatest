@@ -38,6 +38,8 @@ Container of link:test_result.html[+test_result+] values.
 Constructors
 ------------
 
+No public constructors are available.
+
 Methods
 -------
 
