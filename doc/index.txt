@@ -448,42 +448,58 @@ used.
 link:https://github.com/sabel83/metatest/tree/master/example/stream_type[source code] +
 link:example_stream_type.html[output] +
 
+Related publications
+--------------------
+
+
+
+Ábel Sinkovics, Endre Sajó, Zoltán Porkoláb: +
+*Towards more reliable C++ template metaprograms*, +
+In Jaan Penjam: 12th Symposium on Programming Languages and Software Tools
+(SPLST'11), Tallinn, Estonia, 5-7 October, 2011., pp. 260-271. +
+
+Ábel Sinkovics: +
+*Unit testing of C++ template metaprograms*, +
+In Proceedings of the 8th Joint Conference on Matematics and Computer Science,
+MaCS 2010, Selected papers, pp. 375-384 +
+
+
 Reference
 ---------
 
 Test case registration tools +
 
-link:suite_path.html[suite_path] +
-link:METATEST_ADD_TEST.html[METATEST_ADD_TEST] +
+* link:suite_path.html[suite_path] +
+* link:METATEST_ADD_TEST.html[METATEST_ADD_TEST] +
 
 Classes building up the test suite hierarchy at runtime +
 
-link:test_driver.html[test_driver] +
-link:test_suite.html[test_suite] +
-link:test_result.html[test_result] +
-link:location.html[location] +
-link:METATEST_HERE.html[METATEST_HERE] +
+* link:test_driver.html[test_driver] +
+* link:test_suite.html[test_suite] +
+* link:test_result.html[test_result] +
+* link:location.html[location] +
+* link:METATEST_HERE.html[METATEST_HERE] +
 
 Type pretty-printing tools +
 
-link:to_stream.html[to_stream] +
-link:to_stream_argument_list.html[to_stream_argument_list] +
-link:METATEST_DEFINE_TO_STREAM_FOR_TYPE.html[METATEST_DEFINE_TO_STREAM_FOR_TYPE] +
-link:METATEST_DEFINE_TO_STREAM_FOR_SIMPLE_TYPE.html[METATEST_DEFINE_TO_STREAM_FOR_SIMPLE_TYPE] +
-link:METATEST_DEFINE_TO_STREAM_FOR_TEMPLATE.html[METATEST_DEFINE_TO_STREAM_FOR_TEMPLATE] +
-link:METATEST_DEFINE_TO_STREAM_FOR_TEMPLATE_WITH_DEFAULTS.html[METATEST_DEFINE_TO_STREAM_FOR_TEMPLATE_WITH_DEFAULTS] +
+* link:to_stream.html[to_stream] +
+* link:to_stream_argument_list.html[to_stream_argument_list] +
+* link:METATEST_DEFINE_TO_STREAM_FOR_TYPE.html[METATEST_DEFINE_TO_STREAM_FOR_TYPE] +
+* link:METATEST_DEFINE_TO_STREAM_FOR_SIMPLE_TYPE.html[METATEST_DEFINE_TO_STREAM_FOR_SIMPLE_TYPE] +
+* link:METATEST_DEFINE_TO_STREAM_FOR_TEMPLATE.html[METATEST_DEFINE_TO_STREAM_FOR_TEMPLATE] +
+* link:METATEST_DEFINE_TO_STREAM_FOR_TEMPLATE_WITH_DEFAULTS.html[METATEST_DEFINE_TO_STREAM_FOR_TEMPLATE_WITH_DEFAULTS] +
 
 Report generators provided by the library:
 
-link:plaintext_report.html[plaintext_report] +
-link:xml_report.html[xml_report] +
-link:html_report.html[html_report] +
+* link:plaintext_report.html[plaintext_report] +
+* link:xml_report.html[xml_report] +
+* link:html_report.html[html_report] +
 
 Integration with Boost.Test:
 
-link:meta_warn.html[meta_warn] +
-link:meta_check.html[meta_check] +
-link:meta_require.html[meta_require] +
+* link:meta_warn.html[meta_warn] +
+* link:meta_check.html[meta_check] +
+* link:meta_require.html[meta_require] +
 
 include::copyright[]
 
