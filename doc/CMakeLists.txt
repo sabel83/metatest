@@ -5,5 +5,5 @@
 
 include(Documentation)
 
-generate_documentation(metatest index.txt)
+generate_documentation(metatest html)
 
