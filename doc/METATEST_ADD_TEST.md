@@ -35,7 +35,7 @@ struct metafunction_to_test;
 const suite_path suite = suite_path("test")("suite");
 
 typedef
-  is_equal<int_<13>, metafunction_to_test<int_<19>, int_<83> > >
+  is_equal<int_<13>, metafunction_to_test<int_<19>, int_<83>>>
   test_case;
 
 METATEST_ADD_TEST(suite, test_case)
