@@ -257,7 +257,7 @@ struct to_stream<UDT>
   typedef to_stream type;
 
   static std::ostream& run(std::ostream& os)
-  { os << "UDT"; }
+  { return os << "UDT"; }
 }
 ```
 
