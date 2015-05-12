@@ -16,7 +16,7 @@ struct remove_parentheses_helper<void (T)>
 { typedef T type; };
 
 #define REMOVE_PARENTHESES(t) \
-  remove_parentheses_helper<void (t)>::type
+  remove_parentheses_helper<void t>::type
 
 #define METATEST_TEST_IF_EQUAL(a, b, suite, test_name) \
   namespace \
@@ -36,7 +36,7 @@ namespace
   using namespace boost::mpl;
 }
 
-METATEST_TEST_IF_EQUAL((int_<0>), int_<0>, suite, test1)
+METATEST_TEST_IF_EQUAL((int_<0>), (int_<0>), suite, test1)
 
 namespace
 {
